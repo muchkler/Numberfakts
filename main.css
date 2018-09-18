@@ -1,0 +1,88 @@
+body{
+    background: url(images/bg.png);
+    background-size: cover;
+    background-repeat: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logoHeader{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.createdBy{
+    color: white;
+    font-size: 14px;
+}
+
+h1{
+    margin: 0; 
+}
+
+.creator{
+    margin: 0;
+}
+
+span{
+    font-weight: 800;
+}
+
+.wrapper{
+    padding-top: 150px;
+}
+
+.container{
+    background-color: white; 
+    border-radius: 20px;    
+    -webkit-box-shadow: 0px 1px 23px 5px rgba(0,0,0,0.35); 
+    box-shadow: 0px 1px 23px 5px rgba(0,0,0,0.35);
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+input{
+    border: none;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 2px 34px 5px rgba(0,0,0,0.24); 
+    box-shadow: 0px 2px 34px 5px rgba(0,0,0,0.24);
+    width: 290px;
+    line-height: 20px;
+
+}
+
+#factText{
+    font-size: 14px;
+    color: #2B44E6;
+    font-weight: 600;   
+}
+
+footer{
+    position: fixed;    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+a:hover{
+    color: red;
+}
+
+#fact{
+    display: none;
+    max-height: 100px;
+}
